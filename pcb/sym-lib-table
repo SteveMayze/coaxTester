@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name XBee-Adapter)(type Legacy)(uri ${MYLIB}/XBee-Adapter.lib)(options "")(descr ""))
+)
