@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CoaxTester)(type KiCad)(uri ${KIPRJMOD}/lib/CoaxTester.pretty)(options "")(descr ""))
+)
