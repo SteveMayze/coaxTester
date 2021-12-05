@@ -27,3 +27,4 @@ fp-info-cache
 
 .DS_Store
 
+*.code-workspace
