@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name XBee-Adapter)(type Legacy)(uri ${MYLIB}/XBee-Adapter.lib)(options "")(descr ""))
   (lib (name CoaxTester)(type Legacy)(uri ${KIPRJMOD}/lib/CoaxTester.lib)(options "")(descr ""))
+  (lib (name Tfac-Symbols)(type Legacy)(uri ${MYLIB}/Tfac-Symbols.lib)(options "")(descr ""))
 )

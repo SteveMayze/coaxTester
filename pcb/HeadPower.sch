@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -63,7 +63,7 @@ AR Path="/61AE2AA5/61AE8B40" Ref="C?"  Part="1"
 AR Path="/61B8E1CE/61AE8B40" Ref="C?"  Part="1" 
 F 0 "C?" H 3965 3146 50  0000 L CNN
 F 1 "10μF" H 3965 3055 50  0000 L CNN
-F 2 "" H 3888 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3888 2950 50  0001 C CNN
 F 3 "~" H 3850 3100 50  0001 C CNN
 	1    3850 3100
 	1    0    0    -1  
@@ -76,7 +76,7 @@ AR Path="/61AE2AA5/61AE92F6" Ref="C?"  Part="1"
 AR Path="/61B8E1CE/61AE92F6" Ref="C?"  Part="1" 
 F 0 "C?" H 5215 3146 50  0000 L CNN
 F 1 "22μF" H 5215 3055 50  0000 L CNN
-F 2 "" H 5138 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5138 2950 50  0001 C CNN
 F 3 "~" H 5100 3100 50  0001 C CNN
 	1    5100 3100
 	1    0    0    -1  
@@ -131,7 +131,7 @@ AR Path="/61AE2AA5/61AEF3DE" Ref="C?"  Part="1"
 AR Path="/61B8E1CE/61AEF3DE" Ref="C?"  Part="1" 
 F 0 "C?" H 5765 3146 50  0000 L CNN
 F 1 "1μF" H 5765 3055 50  0000 L CNN
-F 2 "" H 5688 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5688 2950 50  0001 C CNN
 F 3 "~" H 5650 3100 50  0001 C CNN
 	1    5650 3100
 	1    0    0    -1  
@@ -144,7 +144,7 @@ AR Path="/61AE2AA5/61AEF940" Ref="C?"  Part="1"
 AR Path="/61B8E1CE/61AEF940" Ref="C?"  Part="1" 
 F 0 "C?" H 6665 3146 50  0000 L CNN
 F 1 "1μF" H 6665 3055 50  0000 L CNN
-F 2 "" H 6588 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 2950 50  0001 C CNN
 F 3 "~" H 6550 3100 50  0001 C CNN
 	1    6550 3100
 	1    0    0    -1  
@@ -180,7 +180,7 @@ AR Path="/61AE2AA5/61AF3F44" Ref="J?"  Part="1"
 AR Path="/61B8E1CE/61AF3F44" Ref="J?"  Part="1" 
 F 0 "J?" H 2507 2467 50  0000 C CNN
 F 1 "Barrel_Jack_Switch_Pin3Ring" H 2507 2376 50  0000 C CNN
-F 2 "" H 2500 2110 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2500 2110 50  0001 C CNN
 F 3 "~" H 2500 2110 50  0001 C CNN
 	1    2450 2150
 	1    0    0    -1  
@@ -234,7 +234,7 @@ AR Path="/61AE2AA5/61B2CD96" Ref="SW?"  Part="1"
 AR Path="/61B8E1CE/61B2CD96" Ref="SW?"  Part="1" 
 F 0 "SW?" H 3450 2985 50  0000 C CNN
 F 1 "SW_SPST" H 3450 2894 50  0000 C CNN
-F 2 "" H 3450 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3450 2750 50  0001 C CNN
 F 3 "~" H 3450 2750 50  0001 C CNN
 	1    3450 2750
 	1    0    0    -1  
