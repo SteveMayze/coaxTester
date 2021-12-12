@@ -47,7 +47,7 @@ F 3 "http://www.digi.com/resources/documentation/digidocs/pdfs/90002126.pdf" H 1
 	1    0    0    -1  
 $EndComp
 Text Notes 250  13700 0    250  ~ 0
-TODO\n\nCheck the IO on the ATMega88\nCheck the IO on the XBee - i.e. The tail module.\nVerify this on a breadboard.
+TODO\n\nCheck the IO on the XBee - i.e. The tail module.\nVerify this on a breadboard.
 $Sheet
 S 600  950  950  700 
 U 61AE2AA5
@@ -196,7 +196,6 @@ U 61C60B45
 F0 "Head_Line_Driver" 50
 F1 "Head_Line_Driver.sch" 50
 F2 "5V" I L 5950 1550 50 
-F3 "3V3" I L 5950 1700 50 
 F4 "D0" I L 5950 1950 50 
 F5 "D1" I L 5950 2100 50 
 F6 "D2" I L 5950 2250 50 
@@ -211,12 +210,8 @@ Wire Wire Line
 NoConn ~ 11350 2300
 Wire Wire Line
 	5950 1550 5800 1550
-Wire Wire Line
-	5950 1700 5800 1700
 Text Label 5800 1550 2    50   ~ 0
 5V
-Text Label 5800 1700 2    50   ~ 0
-3V3
 Wire Wire Line
 	5950 1950 5800 1950
 Wire Wire Line
@@ -2543,139 +2538,139 @@ NoConn ~ 4050 2950
 $Comp
 L Tfac-Symbols:IRLML2502 Q?
 U 1 1 61BF30EF
-P 3100 9450
-F 0 "Q?" V 3328 9450 40  0000 C CNN
-F 1 "IRLML2502" V 3404 9450 40  0000 C CNN
-F 2 "Micro3" H 2970 9552 29  0001 C CNN
-F 3 "" H 3100 9450 60  0000 C CNN
-	1    3100 9450
+P 2450 9200
+F 0 "Q?" V 2678 9200 40  0000 C CNN
+F 1 "IRLML2502" V 2754 9200 40  0000 C CNN
+F 2 "Micro3" H 2320 9302 29  0001 C CNN
+F 3 "" H 2450 9200 60  0000 C CNN
+	1    2450 9200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61BF465F
-P 2750 9150
-F 0 "R?" H 2820 9196 50  0000 L CNN
-F 1 "0Ω" H 2820 9105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 9150 50  0001 C CNN
-F 3 "~" H 2750 9150 50  0001 C CNN
-	1    2750 9150
+P 2100 8900
+F 0 "R?" H 2170 8946 50  0000 L CNN
+F 1 "10kΩ" H 2170 8855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 8900 50  0001 C CNN
+F 3 "~" H 2100 8900 50  0001 C CNN
+	1    2100 8900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61BF6373
-P 3400 9150
-F 0 "R?" H 3470 9196 50  0000 L CNN
-F 1 "10kΩ" H 3470 9105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3330 9150 50  0001 C CNN
-F 3 "~" H 3400 9150 50  0001 C CNN
-	1    3400 9150
+P 2750 8900
+F 0 "R?" H 2820 8946 50  0000 L CNN
+F 1 "10kΩ" H 2820 8855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 8900 50  0001 C CNN
+F 3 "~" H 2750 8900 50  0001 C CNN
+	1    2750 8900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 8800 2750 8900
+	2100 8550 2100 8650
 Wire Wire Line
-	2750 9300 2750 9550
+	2100 9050 2100 9300
 Wire Wire Line
-	3400 8800 3400 9000
+	2750 8550 2750 8750
 Wire Wire Line
-	3400 9300 3400 9550
+	2750 9050 2750 9300
 Wire Wire Line
-	2750 9550 2900 9550
-Connection ~ 2750 9550
-Connection ~ 3400 9550
+	2100 9300 2250 9300
+Connection ~ 2100 9300
+Connection ~ 2750 9300
 Wire Wire Line
-	3400 9550 3400 9850
+	2750 9300 2750 9600
 Wire Wire Line
-	3300 9550 3400 9550
+	2650 9300 2750 9300
 Wire Wire Line
-	3050 9250 3050 8900
+	2400 9000 2400 8650
 Wire Wire Line
-	3050 8900 2750 8900
-Connection ~ 2750 8900
+	2400 8650 2100 8650
+Connection ~ 2100 8650
 Wire Wire Line
-	2750 8900 2750 9000
+	2100 8650 2100 8750
 Wire Wire Line
-	3400 9850 3650 9850
-Text Label 3650 9850 0    50   ~ 0
+	2750 9600 3000 9600
+Text Label 3000 9600 0    50   ~ 0
 Rx_H
-Text Label 2750 8800 0    50   ~ 0
+Text Label 2100 8550 0    50   ~ 0
 3V3
-Text Label 3400 8800 0    50   ~ 0
+Text Label 2750 8550 0    50   ~ 0
 5V
 Wire Wire Line
-	2750 9550 2750 9950
+	2100 9300 2100 9700
 $Comp
 L Tfac-Symbols:IRLML2502 Q?
 U 1 1 61C3D1AE
-P 3100 8050
-F 0 "Q?" V 3328 8050 40  0000 C CNN
-F 1 "IRLML2502" V 3404 8050 40  0000 C CNN
-F 2 "Micro3" H 2970 8152 29  0001 C CNN
-F 3 "" H 3100 8050 60  0000 C CNN
-	1    3100 8050
+P 2450 7800
+F 0 "Q?" V 2678 7800 40  0000 C CNN
+F 1 "IRLML2502" V 2754 7800 40  0000 C CNN
+F 2 "Micro3" H 2320 7902 29  0001 C CNN
+F 3 "" H 2450 7800 60  0000 C CNN
+	1    2450 7800
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61C3D1B8
-P 2750 7750
-F 0 "R?" H 2820 7796 50  0000 L CNN
-F 1 "0Ω" H 2820 7705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 7750 50  0001 C CNN
-F 3 "~" H 2750 7750 50  0001 C CNN
-	1    2750 7750
+P 2100 7500
+F 0 "R?" H 2170 7546 50  0000 L CNN
+F 1 "10kΩ" H 2170 7455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 7500 50  0001 C CNN
+F 3 "~" H 2100 7500 50  0001 C CNN
+	1    2100 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61C3D1C2
-P 3400 7750
-F 0 "R?" H 3470 7796 50  0000 L CNN
-F 1 "10kΩ" H 3470 7705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3330 7750 50  0001 C CNN
-F 3 "~" H 3400 7750 50  0001 C CNN
-	1    3400 7750
+P 2750 7500
+F 0 "R?" H 2820 7546 50  0000 L CNN
+F 1 "10kΩ" H 2820 7455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 7500 50  0001 C CNN
+F 3 "~" H 2750 7500 50  0001 C CNN
+	1    2750 7500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 7400 2750 7500
+	2100 7150 2100 7250
 Wire Wire Line
-	2750 7900 2750 8150
+	2100 7650 2100 7900
 Wire Wire Line
-	3400 7400 3400 7600
+	2750 7150 2750 7350
 Wire Wire Line
-	3400 7900 3400 8150
+	2750 7650 2750 7900
 Wire Wire Line
-	2750 8150 2900 8150
-Connection ~ 2750 8150
-Connection ~ 3400 8150
+	2100 7900 2250 7900
+Connection ~ 2100 7900
+Connection ~ 2750 7900
 Wire Wire Line
-	3400 8150 3400 8450
+	2750 7900 2750 8200
 Wire Wire Line
-	3300 8150 3400 8150
+	2650 7900 2750 7900
 Wire Wire Line
-	3050 7850 3050 7500
+	2400 7600 2400 7250
 Wire Wire Line
-	3050 7500 2750 7500
-Connection ~ 2750 7500
+	2400 7250 2100 7250
+Connection ~ 2100 7250
 Wire Wire Line
-	2750 7500 2750 7600
+	2100 7250 2100 7350
 Wire Wire Line
-	3400 8450 3650 8450
-Text Label 3650 8450 0    50   ~ 0
+	2750 8200 3000 8200
+Text Label 3000 8200 0    50   ~ 0
 Tx_H
-Text Label 3650 8550 0    50   ~ 0
+Text Label 3000 8300 0    50   ~ 0
 Tx_L
-Text Label 2750 7400 0    50   ~ 0
+Text Label 2100 7150 0    50   ~ 0
 3V3
-Text Label 3400 7400 0    50   ~ 0
+Text Label 2750 7150 0    50   ~ 0
 5V
 Wire Wire Line
-	2750 8550 3650 8550
+	2100 8300 3000 8300
 Wire Wire Line
-	2750 8150 2750 8550
+	2100 7900 2100 8300
 Wire Wire Line
 	4350 3050 4350 2900
 Wire Wire Line
@@ -2684,8 +2679,8 @@ Connection ~ 4350 3050
 Wire Wire Line
 	4350 3050 4500 3050
 Wire Wire Line
-	2750 9950 3650 9950
-Text Label 3650 9950 0    50   ~ 0
+	2100 9700 3000 9700
+Text Label 3000 9700 0    50   ~ 0
 Rx_L
 Wire Wire Line
 	6750 7000 6300 7000
@@ -2805,8 +2800,16 @@ F 3 "~" H 6300 7200 50  0001 C CNN
 	1    6300 7200
 	1    0    0    -1  
 $EndComp
-Text Notes 2100 10400 0    250  ~ 0
-Level Shifter
+Text Notes 1500 10250 0    118  ~ 0
+Level Shifter\nhttps://tinyurl.com/y2q4nzwh
 Text Notes 6650 3700 1    250  ~ 0
 Coax Driver
+Wire Notes Line
+	1700 6150 8550 6150
+Wire Notes Line
+	4900 6400 4900 10800
+Text Label 11200 6050 0    50   ~ 0
+TD_VERT
+Text Label 11200 6250 0    50   ~ 0
+TD_HORIZ
 $EndSCHEMATC
