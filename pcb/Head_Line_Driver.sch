@@ -29354,8 +29354,8 @@ CASCADE
 Wire Wire Line
 	11050 3750 11350 3750
 NoConn ~ 10300 3050
-Text Notes 6100 7400 0    118  ~ 0
-Coax - core and sheath driver\nhttps://tinyurl.com/yypo3uv8
+Text Notes 6100 7900 0    118  ~ 0
+Coax - core and sheath driver\nhttps://tinyurl.com/yypo3uv8\nhttps://tinyurl.com/y39av8ch - With Inverter
 $Bitmap
 Pos 3450 -2300
 Scale 1.000000
