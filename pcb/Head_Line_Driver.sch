@@ -14271,7 +14271,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 3000 4250 3000
 Text Label 4250 3000 0    50   ~ 0
-3V3
+5V
 Wire Wire Line
 	4500 3100 4250 3100
 Wire Wire Line

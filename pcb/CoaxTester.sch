@@ -191,19 +191,19 @@ F 3 "" H 2700 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 5950 1350 1050 2550
+S 5950 1350 800  1850
 U 61C60B45
 F0 "Head_Line_Driver" 50
 F1 "Head_Line_Driver.sch" 50
 F2 "5V" I L 5950 1550 50 
-F3 "D0" I L 5950 1950 50 
-F4 "D1" I L 5950 2100 50 
-F5 "D2" I L 5950 2250 50 
-F6 "D3" I L 5950 2400 50 
-F7 "DIN0" I L 5950 2750 50 
-F8 "DIN1" I L 5950 2950 50 
-F9 "DIN2" I L 5950 3150 50 
-F10 "DIN3" I L 5950 3350 50 
+F3 "D0" I L 5950 1700 50 
+F4 "D1" I L 5950 1850 50 
+F5 "D2" I L 5950 2000 50 
+F6 "D3" I L 5950 2150 50 
+F7 "DIN0" I L 5950 2350 50 
+F8 "DIN1" I L 5950 2550 50 
+F9 "DIN2" I L 5950 2750 50 
+F10 "DIN3" I L 5950 2950 50 
 $EndSheet
 Wire Wire Line
 	11200 2300 11350 2300
@@ -213,13 +213,13 @@ Wire Wire Line
 Text Label 5800 1550 2    50   ~ 0
 5V
 Wire Wire Line
-	5950 1950 5800 1950
+	5950 1700 5800 1700
 Wire Wire Line
-	5950 2100 5800 2100
+	5950 1850 5800 1850
 Wire Wire Line
-	5950 2250 5800 2250
+	5950 2000 5800 2000
 Wire Wire Line
-	5950 2400 5800 2400
+	5950 2150 5800 2150
 Text Label 4050 2450 0    50   ~ 0
 DOUT0
 Text Label 4050 2550 0    50   ~ 0
@@ -228,29 +228,29 @@ Text Label 4050 2650 0    50   ~ 0
 DOUT2
 Text Label 4050 2750 0    50   ~ 0
 DOUT3
-Text Label 5800 1950 2    50   ~ 0
+Text Label 5800 1700 2    50   ~ 0
 DOUT0
-Text Label 5800 2100 2    50   ~ 0
+Text Label 5800 1850 2    50   ~ 0
 DOUT1
-Text Label 5800 2250 2    50   ~ 0
+Text Label 5800 2000 2    50   ~ 0
 DOUT2
-Text Label 5800 2400 2    50   ~ 0
+Text Label 5800 2150 2    50   ~ 0
 DOUT3
+Wire Wire Line
+	5950 2350 5800 2350
+Wire Wire Line
+	5950 2550 5800 2550
 Wire Wire Line
 	5950 2750 5800 2750
 Wire Wire Line
 	5950 2950 5800 2950
-Wire Wire Line
-	5950 3150 5800 3150
-Wire Wire Line
-	5950 3350 5800 3350
-Text Label 5800 2750 2    50   ~ 0
+Text Label 5800 2350 2    50   ~ 0
 DIN0
-Text Label 5800 2950 2    50   ~ 0
+Text Label 5800 2550 2    50   ~ 0
 DIN1
-Text Label 5800 3150 2    50   ~ 0
+Text Label 5800 2750 2    50   ~ 0
 DIN2
-Text Label 5800 3350 2    50   ~ 0
+Text Label 5800 2950 2    50   ~ 0
 DIN3
 Text Label 4050 3650 0    50   ~ 0
 DIN0
@@ -2420,47 +2420,47 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J?
 U 1 1 61B82908
-P 4800 5100
-F 0 "J?" H 4850 5417 50  0000 C CNN
-F 1 "PRG_HEADER" H 4850 5326 50  0000 C CNN
-F 2 "TagConnect:PRG_TC2030-IDC-FP_TH" H 4800 5100 50  0001 C CNN
-F 3 "~" H 4800 5100 50  0001 C CNN
-	1    4800 5100
+P 1300 2350
+F 0 "J?" H 1350 2667 50  0000 C CNN
+F 1 "PRG_HEADER" H 1350 2576 50  0000 C CNN
+F 2 "TagConnect:PRG_TC2030-IDC-FP_TH" H 1300 2350 50  0001 C CNN
+F 3 "~" H 1300 2350 50  0001 C CNN
+	1    1300 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 5000 4350 5000
+	1100 2250 850  2250
 Wire Wire Line
-	5100 5000 5250 5000
+	1600 2250 1750 2250
 Wire Wire Line
-	4600 5100 4350 5100
+	1100 2350 850  2350
 Wire Wire Line
-	4600 5200 4350 5200
+	1100 2450 850  2450
 Wire Wire Line
-	5100 5200 5250 5200
+	1600 2450 1750 2450
 Wire Wire Line
-	5100 5100 5250 5100
-Text Label 4350 5000 0    50   ~ 0
+	1600 2350 1750 2350
+Text Label 850  2250 0    50   ~ 0
 MISO
-Text Label 4350 5100 0    50   ~ 0
+Text Label 850  2350 0    50   ~ 0
 SCK
-Text Label 4350 5200 0    50   ~ 0
+Text Label 850  2450 0    50   ~ 0
 ~RESET
-Text Label 5250 5000 0    50   ~ 0
+Text Label 1750 2250 0    50   ~ 0
 5V
-Text Label 5250 5100 0    50   ~ 0
+Text Label 1750 2350 0    50   ~ 0
 MOSI
 Wire Wire Line
-	5250 5200 5250 5250
+	1750 2450 1750 2500
 $Comp
 L power:GND #PWR?
 U 1 1 61B998EC
-P 5250 5250
-F 0 "#PWR?" H 5250 5000 50  0001 C CNN
-F 1 "GND" H 5255 5077 50  0000 C CNN
-F 2 "" H 5250 5250 50  0001 C CNN
-F 3 "" H 5250 5250 50  0001 C CNN
-	1    5250 5250
+P 1750 2500
+F 0 "#PWR?" H 1750 2250 50  0001 C CNN
+F 1 "GND" H 1755 2327 50  0000 C CNN
+F 2 "" H 1750 2500 50  0001 C CNN
+F 3 "" H 1750 2500 50  0001 C CNN
+	1    1750 2500
 	1    0    0    -1  
 $EndComp
 Text Label 4050 1850 0    50   ~ 0
@@ -2802,7 +2802,7 @@ F 3 "~" H 6300 7200 50  0001 C CNN
 $EndComp
 Text Notes 1500 10250 0    118  ~ 0
 Level Shifter\nhttps://tinyurl.com/y2q4nzwh
-Text Notes 6650 3700 1    250  ~ 0
+Text Notes 6450 2700 1    118  ~ 0
 Coax Driver
 Wire Notes Line
 	1700 6150 8550 6150
