@@ -1,5 +1,7 @@
 (sym_lib_table
-  (lib (name XBee-Adapter)(type Legacy)(uri ${MYLIB}/XBee-Adapter.lib)(options "")(descr ""))
+  (lib (name XBee-Adapter-Legacy)(type Legacy)(uri ${MYLIB}/XBee-Adapter.lib)(options "")(descr "")(disabled))
   (lib (name CoaxTester)(type Legacy)(uri ${KIPRJMOD}/lib/CoaxTester.lib)(options "")(descr ""))
-  (lib (name Tfac-Symbols)(type Legacy)(uri ${MYLIB}/Tfac-Symbols.lib)(options "")(descr ""))
+  (lib (name Tfac-Symbols-Legacy)(type Legacy)(uri ${MYLIB}/Tfac-Symbols.lib)(options "")(descr "")(disabled))
+  (lib (name XBee-Adapter)(type Legacy)(uri ${LOCAL_PCBS}/kicad_lib/lib/XBee-Adapter.lib)(options "")(descr ""))
+  (lib (name Tfac-Symbols)(type Legacy)(uri ${LOCAL_PCBS}/kicad_lib/lib/Tfac-Symbols.lib)(options "")(descr ""))
 )

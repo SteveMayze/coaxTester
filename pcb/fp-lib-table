@@ -1,5 +1,8 @@
 (fp_lib_table
   (lib (name CoaxTester)(type KiCad)(uri ${KIPRJMOD}/lib/CoaxTester.pretty)(options "")(descr ""))
-  (lib (name soic)(type KiCad)(uri ${MYLIB}/soic.pretty)(options "")(descr ""))
-  (lib (name local_opto)(type KiCad)(uri ${MYLIB}/local_opto.pretty)(options "")(descr ""))
+  (lib (name soic-legacy)(type KiCad)(uri ${MYLIB}/soic.pretty)(options "")(descr "")(disabled))
+  (lib (name local_opto-legacy)(type KiCad)(uri ${MYLIB}/local_opto.pretty)(options "")(descr "")(disabled))
+  (lib (name TagConnect)(type KiCad)(uri ${LOCAL_PCBS}/coaxTester/pcb/lib/kicad_lib/lib/TagConnect.pretty)(options "")(descr ""))
+  (lib (name soic)(type KiCad)(uri ${LOCAL_PCBS}/coaxTester/pcb/lib/kicad_lib/lib/soic.pretty)(options "")(descr ""))
+  (lib (name local_opto)(type KiCad)(uri ${LOCAL_PCBS}/coaxTester/pcb/lib/kicad_lib/lib/local_opto.pretty)(options "")(descr ""))
 )
