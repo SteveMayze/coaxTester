@@ -214,7 +214,7 @@
           (stroke (width 0.2032) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 0) (mid 0.2221 1.8083) (end -1.778 0.508)
+        (arc (start 1.778 0) (mid 0.222 1.8083) (end -1.778 0.508)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -422,7 +422,7 @@
     (uuid be118b00-015b-445a-8fc5-7bf35350fda8)
   )
 
-  (symbol (lib_id "Connector:Conn_Coaxial") (at 114.3 69.85 0) (mirror y)
+  (symbol (lib_id "Connector:Conn_Coaxial") (at 114.3 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b57e45)
     (property "Reference" "J?" (id 0) (at 111.76 70.485 0)
@@ -441,7 +441,7 @@
     (pin "2" (uuid 1dc8fb8d-eed9-47f9-8b26-c5b1f3925741))
   )
 
-  (symbol (lib_id "CoaxTester:LTV-817") (at 129.54 72.39 0) (mirror y)
+  (symbol (lib_id "CoaxTester:LTV-817") (at 129.54 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b57e46)
     (property "Reference" "U?" (id 0) (at 129.54 61.849 0))
@@ -458,7 +458,7 @@
     (pin "4" (uuid 2fc4840b-0b41-42d1-86ed-57a17785a470))
   )
 
-  (symbol (lib_id "Device:R") (at 156.21 69.85 270)
+  (symbol (lib_id "Device:R") (at 156.21 69.85 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b57e47)
     (property "Reference" "R?" (id 0) (at 157.3784 71.628 0)
@@ -477,7 +477,7 @@
     (pin "2" (uuid f10bf108-8d28-404e-9fc1-a97d2f04fb74))
   )
 
-  (symbol (lib_id "Device:R") (at 148.59 80.01 180)
+  (symbol (lib_id "Device:R") (at 148.59 80.01 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b57e48)
     (property "Reference" "R?" (id 0) (at 146.812 81.1784 0)
@@ -496,7 +496,7 @@
     (pin "2" (uuid 7d76acad-39f3-46d7-b1fb-d62be69cc46f))
   )
 
-  (symbol (lib_id "power:GND2") (at 140.97 88.9 0)
+  (symbol (lib_id "power:GND2") (at 140.97 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b57e49)
     (property "Reference" "#PWR?" (id 0) (at 140.97 95.25 0)
@@ -512,7 +512,7 @@
     (pin "1" (uuid f02cacf2-00a2-40dc-afe0-5f2e606c8c3e))
   )
 
-  (symbol (lib_id "CoaxTester:LTV-817") (at 129.54 113.03 0) (mirror y)
+  (symbol (lib_id "CoaxTester:LTV-817") (at 129.54 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b57e4b)
     (property "Reference" "U?" (id 0) (at 129.54 102.489 0))
@@ -529,7 +529,7 @@
     (pin "4" (uuid 90138dfa-4560-4f9b-9d88-db870b554b31))
   )
 
-  (symbol (lib_id "Device:R") (at 156.21 110.49 270)
+  (symbol (lib_id "Device:R") (at 156.21 110.49 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b57e4c)
     (property "Reference" "R?" (id 0) (at 157.3784 112.268 0)
@@ -548,7 +548,7 @@
     (pin "2" (uuid 08c47ddd-ef04-4d00-ba31-90e588e05522))
   )
 
-  (symbol (lib_id "Device:R") (at 148.59 120.65 180)
+  (symbol (lib_id "Device:R") (at 148.59 120.65 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b57e4d)
     (property "Reference" "R?" (id 0) (at 146.812 121.8184 0)
@@ -567,7 +567,7 @@
     (pin "2" (uuid 4005e6c5-b2dc-45ca-84f2-195a313d1407))
   )
 
-  (symbol (lib_id "Connector:Conn_Coaxial") (at 115.57 110.49 0) (mirror y)
+  (symbol (lib_id "Connector:Conn_Coaxial") (at 115.57 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b6014a)
     (property "Reference" "J?" (id 0) (at 113.03 111.125 0)
@@ -586,7 +586,7 @@
     (pin "2" (uuid 1b16b8c7-b267-4abf-97fb-f52655945c3f))
   )
 
-  (symbol (lib_id "power:GND2") (at 140.97 129.54 0)
+  (symbol (lib_id "power:GND2") (at 140.97 129.54 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b7a45b)
     (property "Reference" "#PWR?" (id 0) (at 140.97 135.89 0)

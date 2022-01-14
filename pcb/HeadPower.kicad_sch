@@ -574,7 +574,7 @@
     (uuid 872313a4-03e6-4e4a-b850-f54dcb50f9fc)
   )
 
-  (symbol (lib_id "Regulator_Linear:MCP1700-3302E_SOT23") (at 154.94 69.85 0)
+  (symbol (lib_id "Regulator_Linear:MCP1700-3302E_SOT23") (at 154.94 69.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ae4e3a)
     (property "Reference" "U?" (id 0) (at 154.94 63.7032 0))
@@ -590,7 +590,7 @@
     (pin "3" (uuid a2eafc08-699d-49ab-8def-32837a2bb980))
   )
 
-  (symbol (lib_id "Regulator_Linear:AP1117-50") (at 114.3 69.85 0)
+  (symbol (lib_id "Regulator_Linear:AP1117-50") (at 114.3 69.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ae4e40)
     (property "Reference" "U?" (id 0) (at 114.3 63.7032 0))
@@ -606,7 +606,7 @@
     (pin "3" (uuid 73f2d920-41d0-4bcf-8d97-4de03e50aa6e))
   )
 
-  (symbol (lib_id "Device:Battery_Cell") (at 80.01 80.01 0)
+  (symbol (lib_id "Device:Battery_Cell") (at 80.01 80.01 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ae75fa)
     (property "Reference" "BT?" (id 0) (at 80.01 81.28 0)
@@ -625,7 +625,7 @@
     (pin "2" (uuid 72f33f67-c4bd-450e-bd37-145400d4c33d))
   )
 
-  (symbol (lib_id "Device:C") (at 97.79 78.74 0)
+  (symbol (lib_id "Device:C") (at 97.79 78.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ae8b40)
     (property "Reference" "C?" (id 0) (at 100.711 77.5716 0)
@@ -644,7 +644,7 @@
     (pin "2" (uuid 73725ba8-5959-4a66-b0e4-12abeec1d594))
   )
 
-  (symbol (lib_id "Device:C") (at 129.54 78.74 0)
+  (symbol (lib_id "Device:C") (at 129.54 78.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ae92f6)
     (property "Reference" "C?" (id 0) (at 132.461 77.5716 0)
@@ -663,7 +663,7 @@
     (pin "2" (uuid d106a29f-001b-4637-9d52-66b0a5fb8b39))
   )
 
-  (symbol (lib_id "power:GND") (at 114.3 93.98 0)
+  (symbol (lib_id "power:GND") (at 114.3 93.98 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ae9fa0)
     (property "Reference" "#PWR?" (id 0) (at 114.3 100.33 0)
@@ -679,7 +679,7 @@
     (pin "1" (uuid 8cd11b4f-84fc-450f-b6c4-95cd85319f81))
   )
 
-  (symbol (lib_id "Device:C") (at 143.51 78.74 0)
+  (symbol (lib_id "Device:C") (at 143.51 78.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aef3de)
     (property "Reference" "C?" (id 0) (at 146.431 77.5716 0)
@@ -698,7 +698,7 @@
     (pin "2" (uuid 79783b93-0df9-4b72-a9f5-79822605c3d4))
   )
 
-  (symbol (lib_id "Device:C") (at 166.37 78.74 0)
+  (symbol (lib_id "Device:C") (at 166.37 78.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aef940)
     (property "Reference" "C?" (id 0) (at 169.291 77.5716 0)
@@ -717,7 +717,7 @@
     (pin "2" (uuid 81777fc0-c5a7-4a15-88f6-34092c22851d))
   )
 
-  (symbol (lib_id "Connector:Barrel_Jack_Switch_Pin3Ring") (at 62.23 54.61 0)
+  (symbol (lib_id "Connector:Barrel_Jack_Switch_Pin3Ring") (at 62.23 54.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061af3f44)
     (property "Reference" "J?" (id 0) (at 63.6778 46.5582 0))
@@ -733,7 +733,7 @@
     (pin "3" (uuid d8128e42-5a64-4dba-838a-8d2464d10a32))
   )
 
-  (symbol (lib_id "power:GND") (at 88.9 54.61 0)
+  (symbol (lib_id "power:GND") (at 88.9 54.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b1108b)
     (property "Reference" "#PWR?" (id 0) (at 88.9 60.96 0)
@@ -749,7 +749,7 @@
     (pin "1" (uuid 1217a984-791b-44ae-bd82-30ee46846c54))
   )
 
-  (symbol (lib_id "Switch:SW_SPST") (at 87.63 69.85 0)
+  (symbol (lib_id "Switch:SW_SPST") (at 87.63 69.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b2cd96)
     (property "Reference" "SW?" (id 0) (at 87.63 63.881 0))

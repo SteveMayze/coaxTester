@@ -52,7 +52,7 @@
           (stroke (width 0.2032) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 0) (mid 0.2221 1.8083) (end -1.778 0.508)
+        (arc (start 1.778 0) (mid 0.222 1.8083) (end -1.778 0.508)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -321,7 +321,7 @@
     (uuid adcbf4d0-ed9c-4c7d-b78f-3bcbe974bdcb)
   )
 
-  (symbol (lib_id "Transistor_BJT:BC856BS") (at 106.68 52.07 0) (mirror x)
+  (symbol (lib_id "Transistor_BJT:BC856BS") (at 106.68 52.07 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b4818e)
     (property "Reference" "Q?" (id 0) (at 111.506 53.2384 0)
@@ -341,7 +341,7 @@
     (pin "6" (uuid 9c8a370c-8885-4e45-8123-bcb3fe0ffaee))
   )
 
-  (symbol (lib_id "Connector:Conn_Coaxial") (at 116.84 63.5 0)
+  (symbol (lib_id "Connector:Conn_Coaxial") (at 116.84 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b5137c)
     (property "Reference" "J?" (id 0) (at 119.38 64.135 0)
@@ -360,7 +360,7 @@
     (pin "2" (uuid 2e28979c-769d-48be-82ec-d83784e029ea))
   )
 
-  (symbol (lib_id "Device:R") (at 93.98 52.07 270)
+  (symbol (lib_id "Device:R") (at 93.98 52.07 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b5137d)
     (property "Reference" "R?" (id 0) (at 93.98 46.8122 90))
@@ -375,7 +375,7 @@
     (pin "2" (uuid a83fd1ab-3fad-4b2d-8ec8-7b6bb8cef23a))
   )
 
-  (symbol (lib_id "Device:R") (at 116.84 78.74 0)
+  (symbol (lib_id "Device:R") (at 116.84 78.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b774f7)
     (property "Reference" "R?" (id 0) (at 118.618 77.5716 0)
@@ -394,7 +394,7 @@
     (pin "2" (uuid 3d53a917-aaa0-41e4-9334-37fdc797c540))
   )
 
-  (symbol (lib_id "power:GND") (at 116.84 96.52 0)
+  (symbol (lib_id "power:GND") (at 116.84 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b774fe)
     (property "Reference" "#PWR?" (id 0) (at 116.84 102.87 0)
@@ -410,7 +410,7 @@
     (pin "1" (uuid e01b59fe-9d83-437f-a0c0-46c610662aa7))
   )
 
-  (symbol (lib_id "Device:R") (at 116.84 90.17 0)
+  (symbol (lib_id "Device:R") (at 116.84 90.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b77504)
     (property "Reference" "R?" (id 0) (at 118.618 89.0016 0)

@@ -214,7 +214,7 @@
           (stroke (width 0.2032) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 0) (mid 0.2221 1.8083) (end -1.778 0.508)
+        (arc (start 1.778 0) (mid 0.222 1.8083) (end -1.778 0.508)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -368,7 +368,7 @@
     (uuid acfcaba7-a8b8-4c21-a793-d3e0373f34dc)
   )
 
-  (symbol (lib_id "power:GND2") (at 140.97 88.9 0)
+  (symbol (lib_id "power:GND2") (at 140.97 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8a323e69-2cf2-41e1-aebc-c2158fec9906)
     (property "Reference" "#PWR?" (id 0) (at 140.97 95.25 0)
@@ -384,7 +384,7 @@
     (pin "1" (uuid 2820ad95-d8aa-436f-a3c0-71d0e3c6e0f7))
   )
 
-  (symbol (lib_id "Connector:Conn_Coaxial") (at 114.3 69.85 0) (mirror y)
+  (symbol (lib_id "Connector:Conn_Coaxial") (at 114.3 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8e78bb44-6dad-4112-8889-d3094650af50)
     (property "Reference" "J?" (id 0) (at 111.76 70.485 0)
@@ -403,7 +403,7 @@
     (pin "2" (uuid 44bcccf0-3114-4053-a0d2-45e5732e26ae))
   )
 
-  (symbol (lib_id "Device:R") (at 156.21 69.85 270)
+  (symbol (lib_id "Device:R") (at 156.21 69.85 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bcc5afab-7526-448b-9943-ad1ddef8e90a)
     (property "Reference" "R?" (id 0) (at 157.3784 71.628 0)
@@ -422,7 +422,7 @@
     (pin "2" (uuid aadb817b-6533-43c2-ad6f-6d66a8c5339d))
   )
 
-  (symbol (lib_id "CoaxTester:LTV-817") (at 129.54 72.39 0) (mirror y)
+  (symbol (lib_id "CoaxTester:LTV-817") (at 129.54 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d08e8c20-b451-4a9c-b796-97a4679a5100)
     (property "Reference" "U?" (id 0) (at 129.54 61.849 0))
@@ -439,7 +439,7 @@
     (pin "4" (uuid 0778b7fc-0919-405c-b857-2e23e0bff356))
   )
 
-  (symbol (lib_id "Device:R") (at 148.59 80.01 180)
+  (symbol (lib_id "Device:R") (at 148.59 80.01 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e48b43e7-a635-4a30-bb7a-07f2d2dc99cd)
     (property "Reference" "R?" (id 0) (at 146.812 81.1784 0)

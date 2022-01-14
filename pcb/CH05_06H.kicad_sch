@@ -52,7 +52,7 @@
           (stroke (width 0.2032) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 0) (mid 0.2221 1.8083) (end -1.778 0.508)
+        (arc (start 1.778 0) (mid 0.222 1.8083) (end -1.778 0.508)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -380,7 +380,7 @@
     (uuid acb6c3f3-e677-4f35-9fc2-138ba10f33af)
   )
 
-  (symbol (lib_id "Device:R") (at 96.52 52.07 270)
+  (symbol (lib_id "Device:R") (at 96.52 52.07 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b48177)
     (property "Reference" "R?" (id 0) (at 96.52 46.8122 90))
@@ -395,7 +395,7 @@
     (pin "2" (uuid 3b09fa88-2f7a-4c19-9ad0-a0802116a481))
   )
 
-  (symbol (lib_id "Device:R") (at 115.57 69.85 0)
+  (symbol (lib_id "Device:R") (at 115.57 69.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b757dd)
     (property "Reference" "R?" (id 0) (at 117.348 68.6816 0)
@@ -414,7 +414,7 @@
     (pin "2" (uuid 57677c25-184f-4244-b271-b321dc6cc561))
   )
 
-  (symbol (lib_id "power:GND") (at 115.57 87.63 0)
+  (symbol (lib_id "power:GND") (at 115.57 87.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b757e4)
     (property "Reference" "#PWR?" (id 0) (at 115.57 93.98 0)
@@ -430,7 +430,7 @@
     (pin "1" (uuid 2167e065-8625-40cd-be07-0c6de372b785))
   )
 
-  (symbol (lib_id "Device:R") (at 115.57 82.55 0)
+  (symbol (lib_id "Device:R") (at 115.57 82.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b757ea)
     (property "Reference" "R?" (id 0) (at 117.348 81.3816 0)
@@ -449,7 +449,7 @@
     (pin "2" (uuid 87d8dbbd-305f-423b-b14e-29ed9151a00b))
   )
 
-  (symbol (lib_id "Device:R") (at 115.57 135.89 0)
+  (symbol (lib_id "Device:R") (at 115.57 135.89 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b7e30b)
     (property "Reference" "R?" (id 0) (at 117.348 134.7216 0)
@@ -468,7 +468,7 @@
     (pin "2" (uuid 22251c74-7a6c-4838-84a0-3e0ab74dc75a))
   )
 
-  (symbol (lib_id "power:GND") (at 115.57 154.94 0)
+  (symbol (lib_id "power:GND") (at 115.57 154.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b7e312)
     (property "Reference" "#PWR?" (id 0) (at 115.57 161.29 0)
@@ -484,7 +484,7 @@
     (pin "1" (uuid 9b97482f-5157-4b4a-9d3f-56b191a21bce))
   )
 
-  (symbol (lib_id "Device:R") (at 115.57 148.59 0)
+  (symbol (lib_id "Device:R") (at 115.57 148.59 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b7e318)
     (property "Reference" "R?" (id 0) (at 117.348 147.4216 0)
@@ -503,7 +503,7 @@
     (pin "2" (uuid 2ae1c4de-028c-45d1-9526-ccd5a690256f))
   )
 
-  (symbol (lib_id "Connector:Conn_Coaxial") (at 115.57 59.69 0)
+  (symbol (lib_id "Connector:Conn_Coaxial") (at 115.57 59.69 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b88032)
     (property "Reference" "J?" (id 0) (at 118.11 60.325 0)
@@ -522,7 +522,7 @@
     (pin "2" (uuid 026f237e-df81-430c-b774-18ffaeaa641c))
   )
 
-  (symbol (lib_id "Connector:Conn_Coaxial") (at 115.57 125.73 0)
+  (symbol (lib_id "Connector:Conn_Coaxial") (at 115.57 125.73 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b88037)
     (property "Reference" "J?" (id 0) (at 118.11 126.365 0)
@@ -541,7 +541,7 @@
     (pin "2" (uuid c27357dd-c789-43f8-8d9b-d92947dec194))
   )
 
-  (symbol (lib_id "Device:R") (at 93.98 118.11 270)
+  (symbol (lib_id "Device:R") (at 93.98 118.11 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b88038)
     (property "Reference" "R?" (id 0) (at 93.98 112.8522 90))
@@ -556,7 +556,7 @@
     (pin "2" (uuid 7e4d2d19-c4a7-4172-ad14-40edd37eab69))
   )
 
-  (symbol (lib_id "Transistor_BJT:BC856BS") (at 106.68 118.11 0) (mirror x)
+  (symbol (lib_id "Transistor_BJT:BC856BS") (at 106.68 118.11 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b8803a)
     (property "Reference" "Q?" (id 0) (at 111.506 119.2784 0)
@@ -571,12 +571,12 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC856BS.pdf" (id 3) (at 106.68 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 7bf78f94-95ac-4ab3-bf3d-785debf049f1))
-    (pin "4" (uuid 832fc1dd-d97f-47a8-b089-1a01c63b87d9))
-    (pin "5" (uuid 61950248-00c8-472e-9ead-1d6c883cb5d8))
+    (pin "1" (uuid 3f40e620-2b34-4c9e-b852-1ba39e3dbc3a))
+    (pin "2" (uuid 48d919bf-1f23-4426-bfff-25ceb2530f1f))
+    (pin "6" (uuid 44f6de44-c3d8-405f-ac4c-196fb6e5deee))
   )
 
-  (symbol (lib_id "Transistor_BJT:BC856BS") (at 106.68 52.07 0) (mirror x)
+  (symbol (lib_id "Transistor_BJT:BC856BS") (at 106.68 52.07 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b880d1)
     (property "Reference" "Q?" (id 0) (at 111.506 53.2384 0)

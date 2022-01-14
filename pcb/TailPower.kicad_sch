@@ -340,7 +340,7 @@
     (uuid d554632b-6dd0-47f8-b59b-3ce25177ca3e)
   )
 
-  (symbol (lib_id "Regulator_Linear:MCP1700-3302E_SOT23") (at 139.7 53.34 0)
+  (symbol (lib_id "Regulator_Linear:MCP1700-3302E_SOT23") (at 139.7 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b54b52)
     (property "Reference" "U?" (id 0) (at 139.7 47.1932 0))
@@ -356,7 +356,7 @@
     (pin "3" (uuid 3b376f96-fb4f-4ba9-9cb0-8b6f98a29567))
   )
 
-  (symbol (lib_id "Device:Battery_Cell") (at 106.68 63.5 0)
+  (symbol (lib_id "Device:Battery_Cell") (at 106.68 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b54b5e)
     (property "Reference" "BT?" (id 0) (at 106.68 64.77 0)
