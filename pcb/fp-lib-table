@@ -7,4 +7,5 @@
   (lib (name "local_opto")(type "KiCad")(uri "${LOCAL_PCBS}/coaxTester/pcb/lib/kicad_lib/lib/local_opto.pretty")(options "")(descr ""))
   (lib (name "LED_Chain")(type "KiCad")(uri "${LOCAL_PCBS}/coaxTester/pcb/lib/kicad_lib/lib/LED_Chain.pretty")(options "")(descr ""))
   (lib (name "mech")(type "KiCad")(uri "${LOCAL_PCBS}/coaxTester/pcb/lib/kicad_lib/lib/mech.pretty")(options "")(descr ""))
+  (lib (name "XBee-Adapter")(type "KiCad")(uri "${LOCAL_PCBS}/coaxTester/pcb/lib/kicad_lib/lib/XBee-Adapter.pretty")(options "")(descr ""))
 )
