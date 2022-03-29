@@ -2465,7 +2465,7 @@
     (property "Value" "Tail Enclosure" (id 1) (at 350.52 37.7441 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 347.98 34.29 0)
+    (property "Footprint" "mech:Board Ref" (id 2) (at 347.98 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 347.98 34.29 0)
@@ -2560,7 +2560,7 @@
     (property "Value" "Head Enclosure" (id 1) (at 189.23 39.0141 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 186.69 35.56 0)
+    (property "Footprint" "mech:Board Ref" (id 2) (at 186.69 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 186.69 35.56 0)
@@ -2614,7 +2614,7 @@
   )
 
   (symbol (lib_id "XBee-Adapter:DIGI_XBEE") (at 170.18 228.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 749ce21e-2bd1-49c8-b44b-1af79ceb8c3f)
     (property "Reference" "H?" (id 0) (at 172.1994 202.9259 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2622,7 +2622,7 @@
     (property "Value" "DIGI_XBEE" (id 1) (at 172.1994 205.9193 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "XBee-Adapter:XBEE_S2C" (id 2) (at 153.67 233.68 0)
+    (property "Footprint" "XBee-Adapter:XBEE_S2C" (id 2) (at 170.18 213.36 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Datasheet" "" (id 3) (at 153.67 233.68 0)
@@ -2852,7 +2852,7 @@
   )
 
   (symbol (lib_id "XBee-Adapter:DIGI_XBEE") (at 351.79 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid fdcfde96-a39b-488f-b71e-beb6ffe00e27)
     (property "Reference" "H?" (id 0) (at 353.8094 101.3259 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2860,7 +2860,7 @@
     (property "Value" "DIGI_XBEE" (id 1) (at 353.8094 104.3193 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "XBee-Adapter:XBEE_S2C" (id 2) (at 335.28 132.08 0)
+    (property "Footprint" "XBee-Adapter:XBEE_S2C" (id 2) (at 351.79 113.03 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Datasheet" "" (id 3) (at 335.28 132.08 0)
@@ -3166,7 +3166,25 @@
     (path "/00000000-0000-0000-0000-000061c60b45/008c8ceb-7743-4226-8389-5e79b59fd27b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a42/01926744-8292-4782-9b75-60d098a7a8f7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a50/14374d6f-14e8-47c7-b086-00ea5385aabe"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061b47bfa/20962b73-c378-4c45-9442-82007c0d2370"
+      (reference "#PWR?") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a57/2dd5a72a-4b35-4d33-98b9-3dc89f478048"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061ae2aa5/3b175116-7f56-4e4b-b38e-e1190b602a7a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000061c60b45/488f05c2-7acd-4af4-aa90-1c1495a576e0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a57/61fa4e2d-a7e6-48f6-8c99-82b219f7b2f5"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061c60b45/621f16cc-0225-480e-a2c6-d4d386ae8f5e"
@@ -3178,6 +3196,9 @@
     (path "/00000000-0000-0000-0000-000061c60b45/9bd3b295-cf9b-4409-8a15-32cee0098743"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a49/9eea7bf9-cd7f-445e-b305-a2c026006a8b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000061c60b45/b1c2b919-2c89-412d-9eb8-2aa456907610"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -3187,7 +3208,19 @@
     (path "/00000000-0000-0000-0000-000061c60b45/bb73040e-7ad2-43be-9a70-c0886d63dcb1"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a5c/bbd905a6-42e0-4b89-b25f-54bd37109430"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c224753b-c3cc-412e-b299-999953063464"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a50/cd10839d-fb7d-4c76-8120-aa8657e54295"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a42/d2a641d1-bd0c-4130-8327-3ea0fadc171c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a49/dfcf2473-c682-4387-9731-ab3c9bdebf42"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061c60b45/f1bd1d76-e8b1-4c07-a3cb-9c06e03767d9"
@@ -3241,8 +3274,35 @@
     (path "/46945706-1994-4ecb-abe6-6dae4533fbe8"
       (reference "D?") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a50/46e99d99-c915-4f17-9d64-939dc4cb5a32"
+      (reference "D?") (unit 1) (value "SMDB03C") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a5c/98cadc57-1796-4441-a7e5-48beb9a53e19"
+      (reference "D?") (unit 1) (value "SMDB03C") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
     (path "/9e885b90-070c-44ee-a862-66cb7a82bcb6"
       (reference "D?") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a42/af148195-40ab-4e59-b0e8-8c7c263a4678"
+      (reference "D?") (unit 1) (value "SMDB03C") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a50/4bfd4c0b-e3f5-4b49-8aa9-33d4f4aa436c"
+      (reference "D?") (unit 2) (value "SMDB03C") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a42/dc325f15-a50a-4a7e-bad8-256b146c1e59"
+      (reference "D?") (unit 2) (value "SMDB03C") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a57/8d98a2e5-b0e2-4ec3-9a4a-e24f690c7510"
+      (reference "D?") (unit 3) (value "SMDB03C") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a49/92b39ff3-8845-461e-818d-9879615c6186"
+      (reference "D?") (unit 3) (value "SMDB03C") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a57/3d4e934a-9e7f-497e-a8db-b9e0e23c8695"
+      (reference "D?") (unit 4) (value "SMDB03C") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a49/53e5c5f5-c090-45d4-99c6-821d1803e2e4"
+      (reference "D?") (unit 4) (value "SMDB03C") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/161d40b4-c790-4f3e-b1de-afef88fe8749"
       (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
@@ -3359,10 +3419,10 @@
       (reference "Lg?") (unit 1) (value "SJM Logo") (footprint "mech:MyBasic_rounded_50_1")
     )
     (path "/40b30d9a-4fb0-4992-8f57-b9024316f667"
-      (reference "N?") (unit 1) (value "Tail Enclosure") (footprint "")
+      (reference "N?") (unit 1) (value "Tail Enclosure") (footprint "mech:Board Ref")
     )
     (path "/5a58d39a-2ec3-4ef0-abec-6ec66d1cf4f2"
-      (reference "N?") (unit 1) (value "Head Enclosure") (footprint "")
+      (reference "N?") (unit 1) (value "Head Enclosure") (footprint "mech:Board Ref")
     )
     (path "/00000000-0000-0000-0000-000061bf30ef"
       (reference "Q?") (unit 1) (value "IRLML2502") (footprint "Micro3")
@@ -3599,16 +3659,16 @@
       (reference "U?") (unit 1) (value "LTV-817") (footprint "local_opto:LTV_817")
     )
     (path "/00000000-0000-0000-0000-000061c60b45/0d010bf0-c540-4dc3-9fc7-b78c5a5efaa3"
-      (reference "U?") (unit 1) (value "74AHC595") (footprint "")
+      (reference "U?") (unit 1) (value "74AHC595") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000061c60b45/1919ed21-05d7-49ed-9bbf-ad716adf4104"
-      (reference "U?") (unit 1) (value "74HC165") (footprint "")
+      (reference "U?") (unit 1) (value "74HC165") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000061c60b45/36131634-c3ac-4133-a779-a13125d5274d"
-      (reference "U?") (unit 1) (value "74HC165") (footprint "")
+      (reference "U?") (unit 1) (value "74HC165") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000061c60b45/5e5b639c-5d7d-4123-8e20-13b394e8ce1b"
-      (reference "U?") (unit 1) (value "74AHC595") (footprint "")
+      (reference "U?") (unit 1) (value "74AHC595") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000061b6893f/d08e8c20-b451-4a9c-b796-97a4679a5100"
       (reference "U?") (unit 1) (value "LTV-817") (footprint "local_opto:LTV_817")
