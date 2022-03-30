@@ -350,9 +350,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "CoaxTester"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "CoaxTester.kicad_pro",
