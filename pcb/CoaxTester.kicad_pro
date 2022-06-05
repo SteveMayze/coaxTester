@@ -486,6 +486,10 @@
     [
       "00000000-0000-0000-0000-000061b47bfa",
       "Tail Power"
+    ],
+    [
+      "3cacc5b5-0b9a-41df-a427-24c30f1eb6f8",
+      "Controls"
     ]
   ],
   "text_variables": {}
