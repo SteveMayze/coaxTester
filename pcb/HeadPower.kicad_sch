@@ -631,9 +631,9 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 76ee303c-1cfc-45a8-ae72-af3efaba6c47)
   )
-  (hierarchical_label "3V3" (shape input) (at 179.07 69.85 0)
+  (hierarchical_label "Vdd" (shape input) (at 179.07 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 872313a4-03e6-4e4a-b850-f54dcb50f9fc)
+    (uuid c8c336e3-7910-436d-a9f9-8c7982bc00c9)
   )
 
   (symbol (lib_id "Regulator_Linear:MCP1700-3302E_SOT23") (at 154.94 69.85 0) (unit 1)

@@ -489,7 +489,6 @@
     )
   )
 
-
   (junction (at 135.89 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 863459e0-275e-4477-9c56-10ea5117a839)
   )
@@ -680,12 +679,6 @@
     )
     (pin "1" (uuid 382c5869-d19a-482a-8f4f-3d4c56f8ac69))
     (pin "8" (uuid c42e12b0-cfbb-4b40-958f-15a042b0710c))
-    (pin "2" (uuid 6f13caaf-dcf3-423c-b6b8-99002cc44e4b))
-    (pin "7" (uuid 73f6b5cc-b0dc-4587-90fa-0a11aa2de251))
-    (pin "3" (uuid 22a27972-7ae9-4a89-8c97-ea5c8b731fd1))
-    (pin "6" (uuid e6e0f61f-f69a-4b93-bd1f-4ea4b750e8bf))
-    (pin "4" (uuid 1be8628f-8461-4d4d-92aa-197c5ad8556c))
-    (pin "5" (uuid 0ec580a8-26cc-4af3-88ed-b583298a93ae))
   )
 
   (symbol (lib_id "Transistor_BJT:BC847BPN") (at 106.68 52.07 0) (unit 1)
@@ -706,9 +699,6 @@
     (pin "1" (uuid c0ea6702-68b6-4369-b147-2a7bdc808de3))
     (pin "2" (uuid 2c7b4c8d-f933-4817-ba41-d1c439d69db9))
     (pin "6" (uuid be5081f6-dc29-4724-995f-39db2d4b74e7))
-    (pin "3" (uuid 7af729c1-1094-445d-a1da-457dbce330db))
-    (pin "4" (uuid df455124-52b6-49c2-8022-9539fd167e70))
-    (pin "5" (uuid 6469eafb-e69d-4d13-b71c-e24c18a000db))
   )
 
   (symbol (lib_id "power:GND") (at 135.89 114.3 0) (unit 1)
