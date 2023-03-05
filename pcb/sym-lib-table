@@ -1,7 +1,8 @@
 (sym_lib_table
+  (version 7)
   (lib (name "CoaxTester")(type "KiCad")(uri "${KIPRJMOD}/lib/CoaxTester.kicad_sym")(options "")(descr ""))
   (lib (name "XBee-Adapter")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad_lib/lib/XBee-Adapter.kicad_sym")(options "")(descr ""))
   (lib (name "Tfac-Symbols")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad_lib/lib/Tfac-Symbols.kicad_sym")(options "")(descr ""))
   (lib (name "mech")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad_lib/lib/mech.kicad_sym")(options "")(descr ""))
-  (lib (name "BCR42xUW6")(type "KiCad")(uri "${MY_PCBS}/BCR42XUW6_Breakout/pcb/lib/BCR42xUW6.kicad_sym")(options "")(descr ""))
+  (lib (name "BCR42xUW6")(type "KiCad")(uri "${LOCAL_PCBS}/BCR42XUW6_Breakout/pcb/lib/BCR42xUW6.kicad_sym")(options "")(descr ""))
 )
