@@ -746,12 +746,12 @@
     )
     (pin "1" (uuid e4bcf530-ec1d-4a74-a443-d6c4622b5819))
     (pin "8" (uuid 46de401b-9e44-4deb-bbe9-96738e29f388))
-    (pin "2" (uuid 53e7ff47-4775-4fdf-aafe-5b78ce177fb3))
-    (pin "7" (uuid 468ec70b-4b25-4bfa-9167-f38dfc1f2569))
-    (pin "3" (uuid e83568f7-0797-4647-9bad-1adda63d8f57))
-    (pin "6" (uuid 81bb9621-775b-4db9-aec9-55101db443d3))
-    (pin "4" (uuid 53a3ba94-a6d0-4b04-a323-c42bd18b3bdc))
-    (pin "5" (uuid f75fabef-89a0-42c0-9c2e-f235a09174c5))
+    (pin "2" (uuid 53e7ff47-4775-4fdf-aafe-5b78ce177fb4))
+    (pin "7" (uuid 468ec70b-4b25-4bfa-9167-f38dfc1f256a))
+    (pin "3" (uuid e83568f7-0797-4647-9bad-1adda63d8f58))
+    (pin "6" (uuid 81bb9621-775b-4db9-aec9-55101db443d4))
+    (pin "4" (uuid 53a3ba94-a6d0-4b04-a323-c42bd18b3bdd))
+    (pin "5" (uuid f75fabef-89a0-42c0-9c2e-f235a09174c6))
     (instances
       (project "CoaxTester"
         (path "/9bac9ad3-a7b9-47f0-87c7-d8630653df68/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a5c"
@@ -778,12 +778,12 @@
     )
     (pin "1" (uuid b2ba97ab-b9e8-4172-a635-7cb2cc8305c5))
     (pin "8" (uuid 87ac07be-4e00-4aa3-9ff3-e5207777132d))
-    (pin "2" (uuid 53e7ff47-4775-4fdf-aafe-5b78ce177fb3))
-    (pin "7" (uuid 468ec70b-4b25-4bfa-9167-f38dfc1f2569))
-    (pin "3" (uuid e83568f7-0797-4647-9bad-1adda63d8f57))
-    (pin "6" (uuid 81bb9621-775b-4db9-aec9-55101db443d3))
-    (pin "4" (uuid 53a3ba94-a6d0-4b04-a323-c42bd18b3bdc))
-    (pin "5" (uuid f75fabef-89a0-42c0-9c2e-f235a09174c5))
+    (pin "2" (uuid 53e7ff47-4775-4fdf-aafe-5b78ce177fb5))
+    (pin "7" (uuid 468ec70b-4b25-4bfa-9167-f38dfc1f256b))
+    (pin "3" (uuid e83568f7-0797-4647-9bad-1adda63d8f59))
+    (pin "6" (uuid 81bb9621-775b-4db9-aec9-55101db443d5))
+    (pin "4" (uuid 53a3ba94-a6d0-4b04-a323-c42bd18b3bde))
+    (pin "5" (uuid f75fabef-89a0-42c0-9c2e-f235a09174c7))
     (instances
       (project "CoaxTester"
         (path "/9bac9ad3-a7b9-47f0-87c7-d8630653df68/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a5c"
@@ -835,12 +835,12 @@
     )
     (pin "1" (uuid 382c5869-d19a-482a-8f4f-3d4c56f8ac69))
     (pin "8" (uuid c42e12b0-cfbb-4b40-958f-15a042b0710c))
-    (pin "2" (uuid 53e7ff47-4775-4fdf-aafe-5b78ce177fb3))
-    (pin "7" (uuid 468ec70b-4b25-4bfa-9167-f38dfc1f2569))
-    (pin "3" (uuid e83568f7-0797-4647-9bad-1adda63d8f57))
-    (pin "6" (uuid 81bb9621-775b-4db9-aec9-55101db443d3))
-    (pin "4" (uuid 53a3ba94-a6d0-4b04-a323-c42bd18b3bdc))
-    (pin "5" (uuid f75fabef-89a0-42c0-9c2e-f235a09174c5))
+    (pin "2" (uuid 53e7ff47-4775-4fdf-aafe-5b78ce177fb6))
+    (pin "7" (uuid 468ec70b-4b25-4bfa-9167-f38dfc1f256c))
+    (pin "3" (uuid e83568f7-0797-4647-9bad-1adda63d8f5a))
+    (pin "6" (uuid 81bb9621-775b-4db9-aec9-55101db443d6))
+    (pin "4" (uuid 53a3ba94-a6d0-4b04-a323-c42bd18b3bdf))
+    (pin "5" (uuid f75fabef-89a0-42c0-9c2e-f235a09174c8))
     (instances
       (project "CoaxTester"
         (path "/9bac9ad3-a7b9-47f0-87c7-d8630653df68/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a5c"
@@ -898,9 +898,9 @@
     (pin "1" (uuid cbbb71c6-a13b-43d7-8283-51f30c4ce471))
     (pin "2" (uuid e53591be-fef6-4ec0-a87f-26eb41de9fd9))
     (pin "6" (uuid 699de7da-1269-4119-a343-3305317275bf))
-    (pin "3" (uuid 2503b11f-a339-4146-8acf-9cd06a710c67))
-    (pin "4" (uuid 2ef6c108-3b40-49a9-b3eb-599c11cc60e4))
-    (pin "5" (uuid c4e972ae-47cb-4599-90c0-9d5eb4aead13))
+    (pin "3" (uuid 2503b11f-a339-4146-8acf-9cd06a710c68))
+    (pin "4" (uuid 2ef6c108-3b40-49a9-b3eb-599c11cc60e5))
+    (pin "5" (uuid c4e972ae-47cb-4599-90c0-9d5eb4aead14))
     (instances
       (project "CoaxTester"
         (path "/9bac9ad3-a7b9-47f0-87c7-d8630653df68/00000000-0000-0000-0000-000061c60b45/00000000-0000-0000-0000-000061c64a5c"

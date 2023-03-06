@@ -1047,7 +1047,7 @@
       )
     )
     (symbol "mech:logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "Lg" (at 0 0 0)
+      (property "Reference" "LG" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Value" "logo" (at 0 -1.27 0)
@@ -2662,10 +2662,10 @@
   (symbol (lib_id "mech:logo") (at 201.93 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12e61b39-4198-4465-baa5-32ef8f18eb1c)
-    (property "Reference" "LG102" (at 201.93 48.26 0)
+    (property "Reference" "LG?" (at 201.93 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "KiCad Logo" (at 201.93 53.34 0)
+    (property "Value" "logo" (at 201.93 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Symbol:KiCad-Logo2_5mm_SilkScreen" (at 201.93 48.26 0)
@@ -2677,7 +2677,7 @@
     (instances
       (project "CoaxTester"
         (path "/9bac9ad3-a7b9-47f0-87c7-d8630653df68"
-          (reference "LG102") (unit 1)
+          (reference "LG?") (unit 1)
         )
       )
     )
@@ -2950,7 +2950,7 @@
   (symbol (lib_id "mech:logo") (at 184.15 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 425a6059-a32f-470e-8724-52feef15c5a2)
-    (property "Reference" "LG101" (at 184.15 48.26 0)
+    (property "Reference" "LG?" (at 184.15 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "logo" (at 184.15 53.34 0)
@@ -2962,7 +2962,7 @@
     (property "Datasheet" "" (at 184.15 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Reference" "Lg" (at 184.15 48.26 0)
+    (property "Reference" "LG" (at 184.15 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "logo" (at 184.15 48.26 0)
@@ -2971,7 +2971,7 @@
     (instances
       (project "CoaxTester"
         (path "/9bac9ad3-a7b9-47f0-87c7-d8630653df68"
-          (reference "LG101") (unit 1)
+          (reference "LG?") (unit 1)
         )
       )
     )
@@ -3575,10 +3575,10 @@
   (symbol (lib_id "mech:logo") (at 359.41 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a552a586-f2cb-4e5e-bf8d-6cd5a65ae1d8)
-    (property "Reference" "LG104" (at 359.41 48.26 0)
+    (property "Reference" "LG?" (at 359.41 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "KiCad Logo" (at 359.41 53.34 0)
+    (property "Value" "logo" (at 359.41 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Symbol:KiCad-Logo2_5mm_SilkScreen" (at 359.41 48.26 0)
@@ -3590,7 +3590,7 @@
     (instances
       (project "CoaxTester"
         (path "/9bac9ad3-a7b9-47f0-87c7-d8630653df68"
-          (reference "LG104") (unit 1)
+          (reference "LG?") (unit 1)
         )
       )
     )
@@ -3780,10 +3780,10 @@
   (symbol (lib_id "mech:logo") (at 346.71 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1c89794-e620-465e-9982-b11bfb9ed110)
-    (property "Reference" "LG103" (at 346.71 48.26 0)
+    (property "Reference" "LG?" (at 346.71 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "SJM Logo" (at 346.71 53.34 0)
+    (property "Value" "logo" (at 346.71 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "mech:MyBasic_rounded_50_1" (at 346.71 48.26 0)
@@ -3795,7 +3795,7 @@
     (instances
       (project "CoaxTester"
         (path "/9bac9ad3-a7b9-47f0-87c7-d8630653df68"
-          (reference "LG103") (unit 1)
+          (reference "LG?") (unit 1)
         )
       )
     )
